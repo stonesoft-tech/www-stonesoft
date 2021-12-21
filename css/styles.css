@@ -53,6 +53,7 @@ i {
 /* ----- HEADINGS AND OTHER COMPONENTS----- */
 h1 {
   font-size: 2rem;
+  display: inline;
 }
 
 
@@ -74,6 +75,29 @@ form {
 .btn {
   padding: 5% 5%;
   margin: 5% 0;
+}
+
+.heading {
+  padding-bottom: 5%;
+}
+.heading-grey {
+  color: grey;
+}
+
+/* #bul-1 {
+  display: none;
+} */
+
+#bul-2 {
+  display: none;
+}
+
+#bul-3 {
+  display: none;
+}
+
+#bul-4 {
+  display: none;
 }
 
 /* ----- HEADLINE ----- */
@@ -128,7 +152,11 @@ footer {
 /* Landscape Phones */
 @media (min-width:576px) {
   body {
-    font-size: 2.5rem;
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 3rem;
   }
 
   .headline-image {
@@ -140,6 +168,22 @@ footer {
   .navbar-toggler-icon {
     height: 3rem;
     width: 3rem;
+  }
+
+  #bul-1 {
+    display: none;
+  }
+
+  #bul-2 {
+    display: contents;
+  }
+
+  #bul-3 {
+    display: none;
+  }
+
+  #bul-4 {
+    display: none;
   }
 
   .social-icons {
@@ -157,7 +201,7 @@ footer {
 /* Tablets */
 @media (min-width: 768px) {
   body {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .header-image {
@@ -199,7 +243,7 @@ footer {
 /* Desktop, iPad Pro and above*/
 @media (min-width: 992px) {
   body {
-    font-size: 1.5rem;
+    font-size: 1rem;
   }
 
   .header-image {
